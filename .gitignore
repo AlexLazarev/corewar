@@ -1,0 +1,5 @@
+cmake-build-debug
+.*.swn
+.*.swo
+.*.swp
+CMakeLists.txt
