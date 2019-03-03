@@ -6,7 +6,7 @@
 #    By: alazarev <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/09 15:31:29 by alazarev          #+#    #+#              #
-#    Updated: 2018/05/15 18:34:05 by alazarev         ###   ########.fr        #
+#    Updated: 2019/03/03 17:09:46 by alazarev         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ $(OBJ_DIR):
 	@mkdir $(OBJ_DIR)
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
-	@$(CC) -c $< -o $@ $(CC_FLAGS) $(STANDART) $(HEADERS_FLAGS)
+	@$(CC) -c $< -o $@ $(CC_FLAGS) $(STANDART) $(HEADER_FLAGS)
 
 clean:
 	@rm -f $(OBJ)
